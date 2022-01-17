@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>영상포함레이아웃</title>
+    <style>
+        * {margin: 0; padding: 0;}
+        li {
+            list-style: none;
+        }
+        a {
+            text-decoration: none;
+            color: #333;
+        }
+        html, body {
+            color: #333;
+        }
+        header ul li {
+            display: inline-block;
+            margin: 0 10px;
+        }
+        header {
+            height: 80px;
+            line-height: 80px;
+            text-align: center;
+        }
+        .main_visual video {
+            width: 100%;
+            height: 600px;
+            object-fit: cover;
+            display: block;
+        }
+        .cont01 {
+            text-align: center;
+            margin: 150px 0;
+        }
+        .cont01 .cont01_in {
+            display: inline-block;
+            border: 1px solid #d4d4d4;
+            text-align: left;
+        }
+        .cont01 .cont01_in figure {
+            height: 280px;
+        }
+        .cont01 .cont01_in figure img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }        
+        .cont01 .cont01_in div {
+            padding: 15px;
+        }
+        .cont01 .cont01_in div dl {
+            margin-bottom: 10px;
+        }
+        .cont01 .cont01_in div dl dt {
+            display: inline-block;
+            width: 70px;
+            font-weight: bold;
+        }
+        .cont01 .cont01_in div dl dd {
+            display: inline-block;
+        }
+        .cont01 .cont01_in div p {
+            margin-bottom: 20px;
+        }
+        .cont01 .cont01_in div h4 {
+            font-size: 25px;
+            margin-bottom: 40px;
+        }
+        </style>
+</head>
+<body>
+    <header>
+        <ul>
+            <li><a href="#">나의소개</a></li>
+            <li><a href="#">영상/모션디자인</a></li>
+            <li><a href="#">일러스트레이트</a></li>
+            <li><a href="#">그래픽디자인</a></li>
+            <li><a href="#">자기소개서다운로드</a></li>
+        </ul>
+    </header>
+    <div class="main_visual">
+        <video autoplay muted loop>
+            <source src="fashion.mp4">
+        </video>
+    </div> <!-- .main_visual.end -->
+    <section class="cont01">
+        <div class="cont01_in">
+            <figure>
+                <img src="hotel001.jpg" alt="호텔1" />
+            </figure>
+            <div>
+                <p>작업내용(각본 연출 촬영 편집 보정)</p>
+                <h4>밀레니어 메이킹 다큐멘터리</h4>
+                <dl>
+                    <dt>러닝타임</dt>
+                    <dd>15s</dd>
+                </dl>
+                <dl>
+                    <dt>프로그램</dt>
+                    <dd>Photoshop, premiere pro</dd>
+                </dl>
+                <dl>
+                    <dt>URL주소</dt>
+                    <dd><a href="#"> https://www.youtube.com/ </a></dd>
+                </dl>
+            </div>
+        </div> <!-- 01 -->
+        <div class="cont01_in">
+            <figure>
+                <img src="hotel001.jpg" alt="호텔1" />
+            </figure>
+            <div>
+                <p>작업내용(각본 연출 촬영 편집 보정)</p>
+                <h4>밀레니어 메이킹 다큐멘터리</h4>
+                <dl>
+                    <dt>러닝타임</dt>
+                    <dd>15s</dd>
+                </dl>
+                <dl>
+                    <dt>프로그램</dt>
+                    <dd>Photoshop, premiere pro</dd>
+                </dl>
+                <dl>
+                    <dt>URL주소</dt>
+                    <dd><a href="#"> https://www.youtube.com/ </a></dd>
+                </dl>
+            </div>
+        </div> <!-- 02 -->
+        <div class="cont01_in">
+            <figure>
+                <img src="hotel001.jpg" alt="호텔1" />
+            </figure>
+            <div>
+                <p>작업내용(각본 연출 촬영 편집 보정)</p>
+                <h4>밀레니어 메이킹 다큐멘터리</h4>
+                <dl>
+                    <dt>러닝타임</dt>
+                    <dd>15s</dd>
+                </dl>
+                <dl>
+                    <dt>프로그램</dt>
+                    <dd>Photoshop, premiere pro</dd>
+                </dl>
+                <dl>
+                    <dt>URL주소</dt>
+                    <dd><a href="#"> https://www.youtube.com/ </a></dd>
+                </dl>
+            </div>
+        </div> <!-- 03 -->
+    </section> <!-- .cont end -->
+</body>
+</html>

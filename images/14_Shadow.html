@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>그림자</title>
+    <style>
+        * {margin: 0; padding: 0;}
+        div {
+            text-align: center;
+        }
+        div dl {
+            width: 300px;
+            border: 1px solid orange;
+            display: inline-block;
+            text-align: center;
+            padding: 30px;
+            margin: 20px;
+        }
+        div dl:first-child {
+            box-shadow: 10px 20px 20px rgba(0, 0, 0, 0.37);
+        }
+        div dl:nth-child(2) {
+            box-shadow: -10px -20px 20px rgba(0, 0, 0, 0.37);
+        }
+        div dl:nth-child(3) {
+            box-shadow: inset 10px 20px 20px rgba(0, 0, 0, 0.37);
+        }
+        div dl:last-child {
+            box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.37);
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <dl>
+            <dt>title</dt>
+            <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda exercitationem a, molestias ratione nemo quis. Corrupti delectus modi voluptas adipisci amet? Ratione tenetur rerum quam sit tempora dolores aliquid aperiam.</dd>
+        </dl>
+        <dl>
+            <dt>title</dt>
+            <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda exercitationem a, molestias ratione nemo quis. Corrupti delectus modi voluptas adipisci amet? Ratione tenetur rerum quam sit tempora dolores aliquid aperiam.</dd>
+        </dl>
+        <dl>
+            <dt>title</dt>
+            <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda exercitationem a, molestias ratione nemo quis. Corrupti delectus modi voluptas adipisci amet? Ratione tenetur rerum quam sit tempora dolores aliquid aperiam.</dd>
+        </dl>
+        <dl>
+            <dt>title</dt>
+            <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda exercitationem a, molestias ratione nemo quis. Corrupti delectus modi voluptas adipisci amet? Ratione tenetur rerum quam sit tempora dolores aliquid aperiam.</dd>
+        </dl>
+    </div>
+</body>
+</html>
