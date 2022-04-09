@@ -549,10 +549,10 @@ footer ul li {
     line-height: 50px;
     /* display: inline-block; */
     /* border-radius: 50px; */
-    border: 1px solid #fff;
+    border: 1px solid rgb(13, 2, 104);
 }
 footer ul li:nth-child(1) {
-    background-color: #fff;
+    background-color: rgb(13, 2, 104);
 }
 footer ul li:nth-child(1) a {color: #333;}
 footer p {
