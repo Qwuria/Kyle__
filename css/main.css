@@ -67,7 +67,7 @@ header div ul li a {
     height: 51vw;
     z-index: 9;
     /* background-color: #333; */
-    background: url('../images/main1.png') center center /cover no-repeat;
+    background: url('../images/main12.png') center center /cover no-repeat;
     position: relative;
     color: rgb(178, 215, 245);
     /* text-align: center; */
@@ -148,7 +148,9 @@ header div ul li a {
     
     padding: 150px 0;
 }
-
+.Video_v1 {
+    text-align: center;
+}
 .video .video_box {
     max-width: 1280px;
     width: calc(100% - 20px);
@@ -428,26 +430,31 @@ https://codesandbox.io/s/jke0r?file=/index.html:686-1415
 
  
 /*************************************** 그래픽 디자인 2D VISUAL DESIGN */
-.g_design {
-    max-width: 1280px;
-    width: calc(100% - 20px);
-    margin: 150px auto;
-    margin-top: 0;
 
+.g_design {
+    max-width: 1500px;
+    width: 100%;
+    margin: 150px auto;
+    margin-top: 100px;
+    /* justify-content: space-between;
+    flex-wrap: wrap;
+    box-sizing: border-box; */
 }
+
 .g_design h3 {
     width: auto;
     text-align: center;
 }
 .imglist {
-    display: flex;
+    display: inline-flex;
     justify-content: space-between;
+
 }
 
 .imglist div {
     width: 24%;
     height: 20vw;
-    border: 1px solid #ccc;
+    border: 2px solid #ccc;
     box-sizing: border-box;
    
 }
@@ -572,7 +579,7 @@ footer p {
     .main_visual .mv_t p {font-size: 30px; margin-top: 10px;}
 
     /* 자기소개서 */
-    .profile {flex-wrap: wrap;}
+    /* .profile {flex-wrap: wrap;}
     .profile .photo {width: 100%;}
     .profile figure {margin: 0 auto; width: 300px; height: 300px; border-radius: 50%; margin-bottom: 30px;}
     .profile figure img {
@@ -580,7 +587,7 @@ footer p {
         height: 100%;
         object-fit: cover;
     }
-    .profile .about {width: 100%; padding: 20px;}
+    .profile .about {width: 100%; padding: 20px;} */
 
 
     /* 베스트 미디어 */
